@@ -1,0 +1,422 @@
+<details open='true'>
+<summary>English</summary>
+
+# Find the roots of a quadratic equation
+
+Please complete `calculate(int a, int b, int c)` method in [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/src/main/java/com/bytelegend/Challenge.java).
+
+`calculate(int a, int b, int c)` calculates the root of the quadratic equation `ax^2+bx+c=0`.
+
+If there are two roots, return an array containing the two roots, i.e. `new double[] { root1, root2 }`.
+
+If there is one root, return an array containing the root, i.e. `new double[] { root }`.
+
+If there is no root, return an empty array.
+
+
+- You can accomplish this challenge via any way below:
+  - Recommended for beginners: run `git clone https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation` to download the code,
+    finish the challenge in your local IDE, then copy/paste/submit the answer in web editor.
+    - If you don't know how, you can [click here to see detailed docs](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/docs/en/clone-and-import.md).
+  - Very unrecommended: you can [click here to download zipped code](https://codeload.github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/zip/refs/heads/main) if you don't like `git` operations.
+  - Or: if you are confident enough to write code in web editor directly, go ahead.
+  - Or: if you are familiar with GitHub, you can fork [the repo](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation), finish the challenge and create a pull request.
+- The bot will check your PR and tell you if you accomplish the challenge.
+- Go back to [ByteLegend](https://bytelegend.com) and continue your hero journey.
+
+Good luck!
+
+If you need any help, feel free to join the [Discord Community](https://discord.gg/35RreUUGWt) or contact us via [contact@bytelegend.com](mailto:contact@bytelegend.com).
+
+**Note: we only allow you to modify the following files.
+Any changes to files other than the following files will be rejected:**
+
+- `src/main/java/com/bytelegend/Challenge.java`
+</details>
+<details>
+<summary>简体中文</summary>
+
+# 求一元二次方程的根
+
+请补全[src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/src/main/java/com/bytelegend/Challenge.java)的`calculate(int a, int b, int c)`。
+
+`calculate(int a, int b, int c)`，计算一元二次方程`ax^2+bx+c=0`的根。
+
+若有两个根，返回一个数组，包含这两个根，即：`new double[] { root1, root2 }`。
+
+若有一个根，返回一个数组，包含这个根，即：返回`new double[] { root }`。
+
+若没有根，返回一个空数组，即：`new double[] {}`。
+
+提示: 你可利用求根公式`x=[-b±√(b²-4ac)]/2a`。需要执行开方运算时可使用`Math.sqrt()`方法。
+
+
+- 你可以使用以下任意一种方法完成挑战：
+  - 初学者推荐：运行`git clone https://git.bytelegend.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation`将代码下载到本地，在本地使用IDE调试完成后复制到网页编辑器里提交。
+    - 如果你不知道怎么做，可以点击[这里查看详细文档](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/docs/zh_hans/clone-and-import.md)。
+  - 非常不推荐：如果你实在不喜欢`git`命令行操作，你可以[点击这里直接下载打包好的代码](https://ghcodeload.bytelegend.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/zip/refs/heads/main)。
+  - 或者：如果你非常自信不需要下载代码到本地调试，可以使用网页编辑器直接提交。
+  - 或者：如果你对GitHub非常熟悉，你可以fork[这个仓库](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation)、完成挑战后，创建一个Pull Request。
+- 机器人将会检查你的答案，告诉你你是否通过了挑战。
+- 回到[字节传说](https://bytelegend.com)，然后继续你的英雄旅程。
+
+祝你好运！
+
+如果你需要任何帮助，欢迎加入官方玩家QQ群（在[首页](https://bytelegend.com)右下角的`联系 & 关于`菜单里可以找到入群方式）或者[Discord社区](https://discord.gg/PvmqK3hF)，或email至[contact@bytelegend.com](mailto:contact@bytelegend.com)。
+
+**注意：我们只允许您修改以下文件，任何对其他文件的修改都会被拒绝：**
+
+- `src/main/java/com/bytelegend/Challenge.java`
+</details>
+<details>
+<summary>繁體中文</summary>
+
+求二次方程的根
+=======
+
+請完成[src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/src/main/java/com/bytelegend/Challenge.java)中`calculate(int a, int b, int c)`方法。
+
+`calculate(int a, int b, int c)`計算二次方程`ax^2+bx+c=0`的根。
+
+如果有兩個根，則返回一個包含兩個根的數組，即`new double[] { root1, root2 }` 。
+
+如果有一個根，則返回一個包含根的數組，即`new double[] { root }` 。
+
+如果沒有根，則返回一個空數組。
+
+-   您可以通過以下任何方式完成此挑戰：
+    -   推薦給初學者：運行`git clone https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation`下載代碼，在本地IDE中完成挑戰，然後復制/粘貼/提交答案網頁編輯器。
+        -   如果您不知道如何操作，可以[單擊此處查看詳細文檔](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/docs/en/clone-and-import.md)。
+    -   非常不推薦：如果你不喜歡`git`操作，可以[點擊這裡下載壓縮代碼](https://codeload.github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/zip/refs/heads/main)。
+    -   或者：如果您有足夠的信心直接在 Web 編輯器中編寫代碼，請繼續。
+    -   或者：如果你熟悉 GitHub，你可以 fork [倉庫](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation)，完成挑戰並創建一個拉取請求。
+-   機器人會檢查你的 PR 並告訴你是否完成了挑戰。
+-   回到[ByteLegend](https://bytelegend.com)繼續你的英雄之旅。
+
+祝你好運！
+
+如果您需要任何幫助，請隨時加入[Discord 社區](https://discord.gg/35RreUUGWt)或通過[contact@bytelegend.com](mailto:contact@bytelegend.com)聯繫我們。
+
+**注意：我們只允許您修改以下文件。對以下文件以外的文件的任何更改都將被拒絕：**
+
+-   `src/main/java/com/bytelegend/Challenge.java`</details>
+<details>
+<summary>Español</summary>
+
+Encontrar las raíces de una ecuación cuadrática
+===============================================
+
+Complete el método de `calculate(int a, int b, int c)` en [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/src/main/java/com/bytelegend/Challenge.java) .
+
+`calculate(int a, int b, int c)` calcula la raíz de la ecuación cuadrática `ax^2+bx+c=0` .
+
+Si hay dos raíces, devuelva una matriz que contenga las dos raíces, es decir, `new double[] { root1, root2 }` .
+
+Si hay una raíz, devuelva una matriz que contenga la raíz, es decir, `new double[] { root }` .
+
+Si no hay raíz, devuelve una matriz vacía.
+
+-   Puede lograr este desafío de cualquier manera a continuación:
+    -   Recomendado para principiantes: ejecute `git clone https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation` para descargar el código, finalice el desafío en su IDE local, luego copie/pegue/envíe la respuesta en Editor web.
+        -   Si no sabe cómo hacerlo, puede [hacer clic aquí para ver los documentos detallados](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/docs/en/clone-and-import.md) .
+    -   Muy poco recomendado: puede [hacer clic aquí para descargar el código comprimido](https://codeload.github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/zip/refs/heads/main) si no le gustan las operaciones de `git` .
+    -   O: si tiene la confianza suficiente para escribir código en el editor web directamente, adelante.
+    -   O: si está familiarizado con GitHub, puede bifurcar [el repositorio](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation) , finalizar el desafío y crear una solicitud de extracción.
+-   El bot verificará tu PR y te dirá si logras el desafío.
+-   Regrese a [ByteLegend](https://bytelegend.com) y continúe su viaje de héroe.
+
+¡Buena suerte!
+
+Si necesita ayuda, no dude en unirse a la [comunidad de Discord](https://discord.gg/35RreUUGWt) o contáctenos a través de [contact@bytelegend.com](mailto:contact@bytelegend.com) .
+
+**Nota: solo le permitimos modificar los siguientes archivos. Cualquier cambio en los archivos que no sean los siguientes archivos será rechazado:**
+
+-   `src/main/java/com/bytelegend/Challenge.java`</details>
+<details>
+<summary>العربية</summary>
+
+أوجد جذور المعادلة التربيعية
+============================
+
+يرجى إكمال `calculate(int a, int b, int c)` في [src / main / java / com / bytelegend / Challenge.java](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/src/main/java/com/bytelegend/Challenge.java) .
+
+`calculate(int a, int b, int c)` يحسب جذر المعادلة التربيعية `ax^2+bx+c=0` .
+
+إذا كان هناك جذران ، فقم بإرجاع مصفوفة تحتوي على الجذور ، أي `new double[] { root1, root2 }` .
+
+إذا كان هناك جذر واحد ، فقم بإرجاع مصفوفة تحتوي على الجذر ، أي `new double[] { root }` .
+
+إذا لم يكن هناك جذر ، فقم بإرجاع مصفوفة فارغة.
+
+-   يمكنك إنجاز هذا التحدي بأي طريقة أدناه:
+    -   موصى به للمبتدئين: قم بتشغيل `git clone https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation` لتنزيل الكود ، وإنهاء التحدي في IDE المحلي الخاص بك ، ثم نسخ / لصق / إرسال الإجابة في محررشبكة.
+        -   إذا كنت لا تعرف كيف يمكنك [النقر هنا لمشاهدة المستندات التفصيلية](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/docs/en/clone-and-import.md) .
+    -   غير موصى به على الإطلاق: يمكنك [النقر هنا لتنزيل رمز مضغوط](https://codeload.github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/zip/refs/heads/main) إذا كنت لا تحب عمليات `git` .
+    -   أو: إذا كنت واثقًا بدرجة كافية لكتابة التعليمات البرمجية في محرر الويب مباشرةً ، فابدأ.
+    -   أو: إذا كنت معتادًا على GitHub ، فيمكنك تفرع [الريبو](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation) وإنهاء التحدي وإنشاء طلب سحب.
+-   سيتحقق الروبوت من العلاقات العامة الخاصة بك ويخبرك إذا أنجزت التحدي.
+-   ارجع إلى [ByteLegend وتابع](https://bytelegend.com) رحلة بطلك.
+
+حظ سعيد!
+
+إذا كنت بحاجة إلى أي مساعدة ، فلا تتردد في الانضمام إلى [مجتمع Discord](https://discord.gg/35RreUUGWt) أو الاتصال بنا عبر [contact@bytelegend.com](mailto:contact@bytelegend.com) .
+
+**ملاحظة: نسمح لك فقط بتعديل الملفات التالية. سيتم رفض أي تغييرات يتم إجراؤها على الملفات بخلاف الملفات التالية:**
+
+-   `src/main/java/com/bytelegend/Challenge.java`</details>
+<details>
+<summary>Português</summary>
+
+Encontrar as raízes de uma equação quadrática
+=============================================
+
+Por favor, complete o método `calculate(int a, int b, int c)` em [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/src/main/java/com/bytelegend/Challenge.java) .
+
+`calculate(int a, int b, int c)` calcula a raiz da equação quadrática `ax^2+bx+c=0` .
+
+Se houver duas raízes, retorne um array contendo as duas raízes, ou seja, `new double[] { root1, root2 }` .
+
+Se houver uma raiz, retorne um array contendo a raiz, ou seja, `new double[] { root }` .
+
+Se não houver raiz, retorne uma matriz vazia.
+
+-   Você pode realizar este desafio de qualquer maneira abaixo:
+    -   Recomendado para iniciantes: execute `git clone https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation` para baixar o código, termine o desafio em seu IDE local e copie/cole/envie a resposta em editor web.
+        -   Se você não sabe como, você pode [clicar aqui para ver documentos detalhados](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/docs/en/clone-and-import.md) .
+    -   Muito não recomendado: você pode [clicar aqui para baixar o código zipado](https://codeload.github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/zip/refs/heads/main) se não gostar das operações do `git` .
+    -   Ou: se você estiver confiante o suficiente para escrever código diretamente no editor web, vá em frente.
+    -   Ou: se você estiver familiarizado com o GitHub, você pode bifurcar [o repo](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation) , finalizar o desafio e criar um pull request.
+-   O bot verificará seu PR e informará se você cumprir o desafio.
+-   Volte para [ByteLegend](https://bytelegend.com) e continue sua jornada de herói.
+
+Boa sorte!
+
+Se precisar de ajuda, sinta-se à vontade para se juntar à [Comunidade Discord](https://discord.gg/35RreUUGWt) ou entre em contato conosco via [contact@bytelegend.com](mailto:contact@bytelegend.com) .
+
+**Nota: só permitimos que você modifique os seguintes arquivos. Quaisquer alterações em arquivos que não sejam os arquivos a seguir serão rejeitadas:**
+
+-   `src/main/java/com/bytelegend/Challenge.java`</details>
+<details>
+<summary>Bahasa Indonesia</summary>
+
+Temukan akar-akar persamaan kuadrat
+===================================
+
+Harap lengkapi metode `calculate(int a, int b, int c)` di [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/src/main/java/com/bytelegend/Challenge.java) .
+
+`calculate(int a, int b, int c)` menghitung akar persamaan kuadrat `ax^2+bx+c=0` .
+
+Jika ada dua akar, kembalikan array yang berisi dua akar, yaitu `new double[] { root1, root2 }` .
+
+Jika ada satu root, kembalikan array yang berisi root, yaitu `new double[] { root }` .
+
+Jika tidak ada root, kembalikan array kosong.
+
+-   Anda dapat menyelesaikan tantangan ini melalui cara apa pun di bawah ini:
+    -   Direkomendasikan untuk pemula: jalankan `git clone https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation` untuk mengunduh kode, selesaikan tantangan di IDE lokal Anda, lalu salin/tempel/kirim jawabannya di editor web.
+        -   Jika Anda tidak tahu caranya, Anda dapat [mengklik di sini untuk melihat dokumen terperinci](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/docs/en/clone-and-import.md) .
+    -   Sangat tidak direkomendasikan: Anda dapat [mengklik di sini untuk mengunduh kode zip](https://codeload.github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/zip/refs/heads/main) jika Anda tidak menyukai operasi `git` .
+    -   Atau: jika Anda cukup percaya diri untuk menulis kode di editor web secara langsung, silakan.
+    -   Atau: jika Anda terbiasa dengan GitHub, Anda dapat melakukan fork [repo](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation) , menyelesaikan tantangan, dan membuat permintaan tarik.
+-   Bot akan memeriksa PR Anda dan memberi tahu Anda jika Anda menyelesaikan tantangan.
+-   Kembali ke [ByteLegend](https://bytelegend.com) dan lanjutkan perjalanan pahlawan Anda.
+
+Semoga beruntung!
+
+Jika Anda memerlukan bantuan, jangan ragu untuk bergabung dengan [Komunitas Discord](https://discord.gg/35RreUUGWt) atau hubungi kami melalui [contact@bytelegend.com](mailto:contact@bytelegend.com) .
+
+**Catatan: kami hanya mengizinkan Anda untuk mengubah file berikut. Setiap perubahan pada file selain file berikut akan ditolak:**
+
+-   `src/main/java/com/bytelegend/Challenge.java`</details>
+<details>
+<summary>Français</summary>
+
+Trouver les racines d'une équation quadratique
+==============================================
+
+Veuillez compléter la méthode `calculate(int a, int b, int c)` dans [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/src/main/java/com/bytelegend/Challenge.java) .
+
+`calculate(int a, int b, int c)` calcule la racine de l'équation quadratique `ax^2+bx+c=0` .
+
+S'il y a deux racines, renvoie un tableau contenant les deux racines, c'est-à-dire `new double[] { root1, root2 }` .
+
+S'il y a une racine, retourne un tableau contenant la racine, c'est-à-dire `new double[] { root }` .
+
+S'il n'y a pas de racine, retourne un tableau vide.
+
+-   Vous pouvez accomplir ce défi de n'importe quelle manière ci-dessous:
+    -   Recommandé pour les débutants : exécutez `git clone https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation` pour télécharger le code, terminez le défi dans votre IDE local, puis copiez/collez/soumettez la réponse dans éditeur web.
+        -   Si vous ne savez pas comment faire, vous pouvez [cliquer ici pour voir la documentation détaillée](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/docs/en/clone-and-import.md) .
+    -   Très déconseillé : vous pouvez [cliquer ici pour télécharger le code compressé](https://codeload.github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/zip/refs/heads/main) si vous n'aimez pas les opérations `git` .
+    -   Ou : si vous êtes suffisamment confiant pour écrire du code directement dans l'éditeur Web, continuez.
+    -   Ou : si vous êtes familier avec GitHub, vous pouvez forker [le dépôt](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation) , terminer le défi et créer une demande d'extraction.
+-   Le bot vérifiera votre PR et vous dira si vous accomplissez le défi.
+-   Retournez à [ByteLegend](https://bytelegend.com) et continuez votre voyage de héros.
+
+Bonne chance!
+
+Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord](https://discord.gg/35RreUUGWt) ou à nous contacter via [contact@bytelegend.com](mailto:contact@bytelegend.com) .
+
+**Remarque : nous vous autorisons uniquement à modifier les fichiers suivants. Toute modification de fichiers autres que les fichiers suivants sera rejetée :**
+
+-   `src/main/java/com/bytelegend/Challenge.java`</details>
+<details>
+<summary>日本語</summary>
+
+二次方程式の根を見つける
+============
+
+[src / main / java / com / bytelegend / Challenge.java](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/src/main/java/com/bytelegend/Challenge.java) `calculate(int a, int b, int c)`メソッドを完了してください。
+
+`calculate(int a, int b, int c)`は、2次方程式`ax^2+bx+c=0`の根を計算します。
+
+ルートが2つある場合は、2つのルートを含む配列、つまり`new double[] { root1, root2 }` 。
+
+ルートが1つある場合は、ルートを含む配列、つまり`new double[] { root }`を返します。
+
+ルートがない場合は、空の配列を返します。
+
+-   この課題は、以下のいずれかの方法で達成できます。
+    -   初心者に推奨： `git clone https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation`を実行してコードをダウンロードし、ローカルIDEでチャレンジを終了してから、で回答をコピー/貼り付け/送信します。 Webエディター。
+        -   方法がわからない場合は、 [ここをクリックして詳細なドキュメントを参照してください](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/docs/en/clone-and-import.md)。
+    -   非常に推奨されていません`git`操作が気に入らない場合は、 [ここをクリックしてzipコードをダウンロード](https://codeload.github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/zip/refs/heads/main)できます。
+    -   または：Webエディターで直接コードを記述できる自信がある場合は、先に進んでください。
+    -   または：GitHubに精通している場合は[、リポジトリ](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation)をフォークしてチャレンジを終了し、プルリクエストを作成できます。
+-   ボットはPRをチェックし、チャレンジを達成したかどうかを通知します。
+-   [ByteLegend](https://bytelegend.com)に戻り、ヒーローの旅を続けてください。
+
+幸運を！
+
+ヘルプが必要な場合は、 [Discordコミュニティ](https://discord.gg/35RreUUGWt)に参加するか、contact [@bytelegend.com](mailto:contact@bytelegend.com)からお問い合わせください。
+
+**注：変更できるのは次のファイルのみです。次のファイル以外のファイルへの変更は拒否されます。**
+
+-   `src/main/java/com/bytelegend/Challenge.java`</details>
+<details>
+<summary>Русский</summary>
+
+Найдите корни квадратного уравнения
+===================================
+
+Пожалуйста, завершите метод `calculate(int a, int b, int c)` в [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/src/main/java/com/bytelegend/Challenge.java) .
+
+`calculate(int a, int b, int c)` вычисляет корень квадратного уравнения `ax^2+bx+c=0` .
+
+Если есть два корня, вернуть массив, содержащий два корня, т.е. `new double[] { root1, root2 }` .
+
+Если есть один корень, вернуть массив, содержащий корень, т.е. `new double[] { root }` .
+
+Если корня нет, вернуть пустой массив.
+
+-   Вы можете выполнить эту задачу любым способом, указанным ниже:
+    -   Рекомендуется для начинающих: запустите `git clone https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation` , чтобы загрузить код, завершите задание в локальной среде IDE, затем скопируйте/вставьте/отправьте ответ в веб-редактор.
+        -   Если вы не знаете, как это сделать, вы можете [щелкнуть здесь, чтобы просмотреть подробную документацию](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/docs/en/clone-and-import.md) .
+    -   Крайне не рекомендуется: вы можете [нажать здесь, чтобы загрузить заархивированный код](https://codeload.github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/zip/refs/heads/main) , если вам не нравятся операции `git` .
+    -   Или: если вы достаточно уверены, чтобы писать код напрямую в веб-редакторе, вперед.
+    -   Или: если вы знакомы с GitHub, вы можете разветвить [репозиторий](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation) , выполнить задание и создать запрос на включение.
+-   Бот проверит ваш PR и сообщит, выполнили ли вы задание.
+-   Вернитесь в [ByteLegend](https://bytelegend.com) и продолжайте свое героическое путешествие.
+
+Удачи!
+
+Если вам нужна помощь, присоединяйтесь к [сообществу Discord](https://discord.gg/35RreUUGWt) или свяжитесь с нами по [адресу contact@bytelegend.com](mailto:contact@bytelegend.com) .
+
+**Примечание: мы разрешаем вам изменять только следующие файлы. Любые изменения в файлах, кроме следующих файлов, будут отклонены:**
+
+-   `src/main/java/com/bytelegend/Challenge.java`</details>
+<details>
+<summary>Deutsch</summary>
+
+Finden Sie die Wurzeln einer quadratischen Gleichung
+====================================================
+
+Bitte vervollständigen Sie die `calculate(int a, int b, int c)` in [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/src/main/java/com/bytelegend/Challenge.java) .
+
+`calculate(int a, int b, int c)` berechnet die Wurzel der quadratischen Gleichung `ax^2+bx+c=0` .
+
+Wenn es zwei Wurzeln gibt, geben Sie ein Array zurück, das die beiden Wurzeln enthält, dh `new double[] { root1, root2 }` .
+
+Wenn es eine Wurzel gibt, geben Sie ein Array zurück, das die Wurzel enthält, dh `new double[] { root }` .
+
+Wenn kein Stamm vorhanden ist, geben Sie ein leeres Array zurück.
+
+-   Sie können diese Herausforderung auf eine der folgenden Arten meistern:
+    -   Empfohlen für Anfänger: Führen Sie `git clone https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation` aus, um den Code herunterzuladen, beenden Sie die Herausforderung in Ihrer lokalen IDE und kopieren/fügen/senden Sie dann die Antwort ein Web-Editor.
+        -   Wenn Sie nicht wissen, wie, können [Sie hier klicken, um detaillierte Dokumente anzuzeigen](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/docs/en/clone-and-import.md) .
+    -   Sehr nicht zu empfehlen: Sie können [hier klicken, um den gezippten Code herunterzuladen,](https://codeload.github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/zip/refs/heads/main) wenn Sie `git` -Operationen nicht mögen.
+    -   Oder: Wenn Sie sicher genug sind, Code direkt im Web-Editor zu schreiben, fahren Sie fort.
+    -   Oder: Wenn Sie sich mit GitHub auskennen, können Sie [das Repo forken](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation) , die Challenge beenden und einen Pull-Request erstellen.
+-   Der Bot überprüft Ihre PR und teilt Ihnen mit, ob Sie die Herausforderung meistern.
+-   Gehen Sie zurück zu [ByteLegend](https://bytelegend.com) und setzen Sie Ihre Heldenreise fort.
+
+Viel Glück!
+
+Wenn Sie Hilfe benötigen, können Sie sich gerne der [Discord Community](https://discord.gg/35RreUUGWt) anschließen oder uns über [contact@bytelegend.com kontaktieren](mailto:contact@bytelegend.com) .
+
+**Hinweis: Wir erlauben Ihnen nur, die folgenden Dateien zu ändern. Alle Änderungen an anderen Dateien als den folgenden Dateien werden abgelehnt:**
+
+-   `src/main/java/com/bytelegend/Challenge.java`</details>
+<details>
+<summary>한국어</summary>
+
+이차 방정식의 근 찾기
+============
+
+[src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/src/main/java/com/bytelegend/Challenge.java) 에서 `calculate(int a, int b, int c)` 메소드를 완료하십시오.
+
+`calculate(int a, int b, int c)` 은 이차 방정식 `ax^2+bx+c=0` 의 근을 계산합니다.
+
+두 개의 루트가 있는 경우 두 개의 루트를 포함하는 배열을 반환합니다(예: `new double[] { root1, root2 }` .
+
+루트가 하나인 경우 루트를 포함하는 배열을 반환합니다(예: `new double[] { root }` .
+
+루트가 없으면 빈 배열을 반환합니다.
+
+-   아래 방법을 통해 이 챌린지를 완료할 수 있습니다.
+    -   초보자를 위한 권장 사항: `git clone https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation` 을 실행하여 코드를 다운로드하고 로컬 IDE에서 챌린지를 완료한 다음 답변을 복사/붙여넣기/제출합니다. 웹 에디터.
+        -   방법을 모르는 경우 [여기를 클릭하여 자세한 문서를 볼](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/docs/en/clone-and-import.md) 수 있습니다.
+    -   매우 권장하지 않음: `git` 작업이 마음에 들지 않으면 [여기를 클릭하여 압축 코드를 다운로드](https://codeload.github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/zip/refs/heads/main) 할 수 있습니다.
+    -   또는 웹 편집기에서 직접 코드를 작성할 만큼 자신이 있다면 계속 진행하십시오.
+    -   또는 GitHub에 익숙하다면 리포지토리를 분기 [하고](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation) 챌린지를 완료하고 풀 요청을 생성할 수 있습니다.
+-   봇은 PR을 확인하고 도전 과제를 달성했는지 알려줍니다.
+-   [ByteLegend](https://bytelegend.com) 로 돌아가 영웅 여정을 계속하세요.
+
+행운을 빕니다!
+
+도움이 필요하면 언제든지 [Discord 커뮤니티](https://discord.gg/35RreUUGWt) 에 가입하거나 [contact@bytelegend.com](mailto:contact@bytelegend.com) 을 통해 문의하세요.
+
+**참고: 다음 파일만 수정할 수 있습니다. 다음 파일 이외의 파일에 대한 변경 사항은 거부됩니다.**
+
+-   `src/main/java/com/bytelegend/Challenge.java`</details>
+<details>
+<summary>Italiano</summary>
+
+Trova le radici di un'equazione quadratica
+==========================================
+
+Si prega di completare il metodo `calculate(int a, int b, int c)` in [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/src/main/java/com/bytelegend/Challenge.java) .
+
+`calculate(int a, int b, int c)` calcola la radice dell'equazione quadratica `ax^2+bx+c=0` .
+
+Se sono presenti due radici, restituire un array contenente le due radici, ovvero `new double[] { root1, root2 }` .
+
+Se esiste una radice, restituire un array contenente la radice, ovvero `new double[] { root }` .
+
+Se non c'è root, restituisce un array vuoto.
+
+-   Puoi portare a termine questa sfida in qualsiasi modo di seguito:
+    -   Consigliato per i principianti: esegui `git clone https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation` per scaricare il codice, completa la sfida nel tuo IDE locale, quindi copia/incolla/invia la risposta in editore web.
+        -   Se non sai come fare, puoi fare [clic qui per visualizzare i documenti dettagliati](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/docs/en/clone-and-import.md) .
+    -   Molto sconsigliato: puoi fare [clic qui per scaricare il codice zippato](https://codeload.github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/zip/refs/heads/main) se non ti piacciono le operazioni `git` .
+    -   Oppure: se sei abbastanza sicuro da scrivere il codice direttamente nell'editor web, vai avanti.
+    -   Oppure: se hai familiarità con GitHub, puoi eseguire il fork [del repository](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation) , completare la sfida e creare una richiesta pull.
+-   Il bot controllerà il tuo PR e ti dirà se hai superato la sfida.
+-   Torna a [ByteLegend](https://bytelegend.com) e continua il tuo viaggio da eroe.
+
+Buona fortuna!
+
+Se hai bisogno di aiuto, non esitare a unirti alla [community di Discord](https://discord.gg/35RreUUGWt) o contattaci tramite [contact@bytelegend.com](mailto:contact@bytelegend.com) .
+
+**Nota: ti permettiamo solo di modificare i seguenti file. Eventuali modifiche ai file diversi dai seguenti file verranno rifiutate:**
+
+-   `src/main/java/com/bytelegend/Challenge.java`</details>
