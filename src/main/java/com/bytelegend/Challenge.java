@@ -24,7 +24,7 @@ public class Challenge {
         if (temp < 0) {
             return new double[0];
         } else if (temp == 0) {
-            double root = (-b) * 2 * a;
+            double root = (-b) / (2 * a);
             return new double[]{root};
         } else {
             double root1 = (-b + Math.sqrt(temp)) / (2 * a);
