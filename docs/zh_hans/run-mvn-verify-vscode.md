@@ -1,7 +1,7 @@
 # 在VSCode中本地验证代码
 
 > 我们深知在国内进行开发遇到的各种网络问题，因此为所有的服务设置了国内镜像，保证你即使完全没有魔法也能拥有极速的开发体验。
-> 如果你碰到了项目导入、刷新缓慢的问题，请参考[这里](https://git.bytelegend.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/docs/zh_hans/clone-and-import-vscode.md#%E5%BC%80%E5%90%AF%E9%A1%B9%E7%9B%AE%E7%BA%A7%E7%9A%84maven%E4%BB%93%E5%BA%93%E9%95%9C%E5%83%8F)解决。
+> 如果你碰到了项目导入、刷新缓慢的问题，请参考[这里](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/docs/zh_hans/clone-and-import-vscode.md#%E5%BC%80%E5%90%AF%E9%A1%B9%E7%9B%AE%E7%BA%A7%E7%9A%84maven%E4%BB%93%E5%BA%93%E9%95%9C%E5%83%8F)解决。
 >
 > 如果你是初学者，最好在本地验证完你的代码之后再提交，这会大大节约你的时间，祝你好运！挫折常有，但请不要轻易放弃，不要让我们的努力付诸东流。:-)
 >

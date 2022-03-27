@@ -41,6 +41,8 @@
 
 ![vscode-jdk-conf](https://raw.githubusercontent.com/ByteLegendQuest/java-clone-switch-branch/main/docs/vscode-jdk-conf.png)
 
+稍等片刻，你就可以开心的在VSCode中开发了！
+
 ## 开启项目级的Maven仓库镜像
 
 如果你没有魔法，项目的导入可能会很慢，这是因为默认的Maven中央仓库在中国大陆没有CDN节点。
