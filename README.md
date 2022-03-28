@@ -1,9 +1,9 @@
-## [ByteLegend](https://bytelegend.com) Challenge of JavaIsland: Calculation and Operators
+# [ByteLegend](https://bytelegend.com) Challenge of JavaIsland: Calculation and Operators
 
 <details open='true'>
 <summary>English</summary>
 
-# Find the roots of a quadratic equation
+## Find the roots of a quadratic equation
 
 Please complete `calculate(int a, int b, int c)` method in [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/src/main/java/com/bytelegend/Challenge.java).
 
@@ -41,7 +41,7 @@ Any changes to files other than the following files will be rejected:**
 <details>
 <summary>简体中文</summary>
 
-# 求一元二次方程的根
+## 求一元二次方程的根
 
 请补全[src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/src/main/java/com/bytelegend/Challenge.java)的`calculate(int a, int b, int c)`。
 
@@ -80,7 +80,7 @@ Any changes to files other than the following files will be rejected:**
 <summary>繁體中文</summary>
 
 求二次方程的根
-=======
+-------
 
 請完成[src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/src/main/java/com/bytelegend/Challenge.java)中`calculate(int a, int b, int c)`方法。
 
@@ -115,7 +115,7 @@ Any changes to files other than the following files will be rejected:**
 <summary>Español</summary>
 
 Encontrar las raíces de una ecuación cuadrática
-===============================================
+-----------------------------------------------
 
 Complete el método de `calculate(int a, int b, int c)` en [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/src/main/java/com/bytelegend/Challenge.java) .
 
@@ -150,7 +150,7 @@ Si necesita ayuda, no dude en unirse a la [comunidad de Discord](https://discord
 <summary>العربية</summary>
 
 أوجد جذور المعادلة التربيعية
-============================
+----------------------------
 
 يرجى إكمال `calculate(int a, int b, int c)` في [src / main / java / com / bytelegend / Challenge.java](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/src/main/java/com/bytelegend/Challenge.java) .
 
@@ -167,7 +167,7 @@ Si necesita ayuda, no dude en unirse a la [comunidad de Discord](https://discord
         -   إذا كنت لا تعرف كيف يمكنك النقر فوق [استيراد مشروع إلى IDEA](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/docs/en/clone-and-import.md) / [استيراد مشروع إلى VSCode](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/docs/en/clone-and-import-vscode.md) .
         -   قبل إرسال التعليمات البرمجية الخاصة بك ، من الأفضل تشغيل `mvn verify` محليًا لتوفير الوقت. لا أعرف كيف؟ انظر [التحقق محليًا في IDEA](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/docs/en/run-mvn-verify-idea.md) / [تحقق محليًا في VSCode](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/docs/en/run-mvn-verify-vscode.md) .
     -   غير موصى به على الإطلاق: يمكنك [النقر هنا لتنزيل رمز مضغوط](https://codeload.github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/zip/refs/heads/main) إذا كنت لا تحب عمليات `git` .
-    -   أو: إذا كنت واثقًا بدرجة كافية لكتابة التعليمات البرمجية في محرر الويب مباشرةً ، فابدأ.
+    -   أو: إذا كنت واثقًا بدرجة كافية من كتابة التعليمات البرمجية في محرر الويب مباشرةً ، فابدأ.
     -   أو: إذا كنت معتادًا على GitHub ، فيمكنك تفرع [الريبو](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation) وإنهاء التحدي وإنشاء طلب سحب.
 -   سيتحقق الروبوت من العلاقات العامة الخاصة بك ويخبرك إذا أنجزت التحدي.
 -   ارجع إلى [ByteLegend وتابع](https://bytelegend.com) رحلة بطلك.
@@ -185,7 +185,7 @@ Si necesita ayuda, no dude en unirse a la [comunidad de Discord](https://discord
 <summary>Português</summary>
 
 Encontrar as raízes de uma equação quadrática
-=============================================
+---------------------------------------------
 
 Por favor, complete o método `calculate(int a, int b, int c)` em [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/src/main/java/com/bytelegend/Challenge.java) .
 
@@ -197,13 +197,13 @@ Se houver uma raiz, retorne um array contendo a raiz, ou seja, `new double[] { r
 
 Se não houver raiz, retorne uma matriz vazia.
 
--   Você pode realizar este desafio de qualquer maneira abaixo:
+-   Você pode realizar esse desafio de qualquer maneira abaixo:
     -   Recomendado para iniciantes: execute `git clone https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation` para baixar o código, termine o desafio em seu IDE local e copie/cole/envie a resposta em editor web.
         -   Se você não sabe como, você pode clicar em [import project into IDEA](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/docs/en/clone-and-import.md) / [import project into VSCode](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/docs/en/clone-and-import-vscode.md) .
         -   Antes de enviar seu código, é melhor você executar `mvn verify` localmente para economizar tempo. Não sei como? Consulte [verificar localmente em IDEA](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/docs/en/run-mvn-verify-idea.md) / [verificar localmente em VSCode](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/docs/en/run-mvn-verify-vscode.md) .
     -   Muito não recomendado: você pode [clicar aqui para baixar o código zipado](https://codeload.github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/zip/refs/heads/main) se não gostar das operações do `git` .
     -   Ou: se você estiver confiante o suficiente para escrever código diretamente no editor da web, vá em frente.
-    -   Ou: se você estiver familiarizado com o GitHub, você pode fazer o fork [do repo](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation) , finalizar o desafio e criar uma pull request.
+    -   Ou: se você estiver familiarizado com o GitHub, você pode bifurcar [o repo](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation) , finalizar o desafio e criar um pull request.
 -   O bot verificará seu PR e informará se você cumprir o desafio.
 -   Volte para [ByteLegend](https://bytelegend.com) e continue sua jornada de herói.
 
@@ -220,7 +220,7 @@ Se precisar de ajuda, sinta-se à vontade para se juntar à [Comunidade Discord]
 <summary>Bahasa Indonesia</summary>
 
 Temukan akar-akar persamaan kuadrat
-===================================
+-----------------------------------
 
 Harap lengkapi metode `calculate(int a, int b, int c)` di [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/src/main/java/com/bytelegend/Challenge.java) .
 
@@ -255,7 +255,7 @@ Jika Anda memerlukan bantuan, jangan ragu untuk bergabung dengan [Komunitas Disc
 <summary>Français</summary>
 
 Trouver les racines d'une équation quadratique
-==============================================
+----------------------------------------------
 
 Veuillez compléter la méthode `calculate(int a, int b, int c)` dans [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/src/main/java/com/bytelegend/Challenge.java) .
 
@@ -290,7 +290,7 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
 <summary>日本語</summary>
 
 二次方程式の根を見つける
-============
+------------
 
 [src / main / java / com / bytelegend / Challenge.java](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/src/main/java/com/bytelegend/Challenge.java) `calculate(int a, int b, int c)`メソッドを完了してください。
 
@@ -325,7 +325,7 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
 <summary>Русский</summary>
 
 Найдите корни квадратного уравнения
-===================================
+-----------------------------------
 
 Пожалуйста, завершите метод `calculate(int a, int b, int c)` в [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/src/main/java/com/bytelegend/Challenge.java) .
 
@@ -341,9 +341,9 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
     -   Рекомендуется для начинающих: запустите `git clone https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation` , чтобы загрузить код, завершите задание в локальной среде IDE, затем скопируйте/вставьте/отправьте ответ в веб-редактор.
         -   Если вы не знаете как, вы можете нажать [импортировать проект в IDEA](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/docs/en/clone-and-import.md) / [импортировать проект в VSCode](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/docs/en/clone-and-import-vscode.md) .
         -   Перед отправкой кода вам лучше запустить `mvn verify` локально, чтобы сэкономить время. Не знаете как? См. « [Проверить локально в IDEA](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/docs/en/run-mvn-verify-idea.md) / [проверить локально в VSCode»](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/docs/en/run-mvn-verify-vscode.md) .
-    -   Крайне не рекомендуется: вы можете [нажать здесь, чтобы загрузить заархивированный код](https://codeload.github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/zip/refs/heads/main) , если вам не нравятся операции `git` .
+    -   Крайне не рекомендуется: вы можете [щелкнуть здесь, чтобы загрузить заархивированный код](https://codeload.github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/zip/refs/heads/main) , если вам не нравятся операции `git` .
     -   Или: если вы достаточно уверены, чтобы писать код напрямую в веб-редакторе, вперед.
-    -   Или: если вы знакомы с GitHub, вы можете разветвить [репозиторий](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation) , выполнить задание и создать запрос на включение.
+    -   Или: если вы знакомы с GitHub, вы можете разветвить [репо](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation) , выполнить задание и создать запрос на включение.
 -   Бот проверит ваш PR и сообщит, выполнили ли вы задание.
 -   Вернитесь в [ByteLegend](https://bytelegend.com) и продолжайте свое героическое путешествие.
 
@@ -360,7 +360,7 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
 <summary>Deutsch</summary>
 
 Finden Sie die Wurzeln einer quadratischen Gleichung
-====================================================
+----------------------------------------------------
 
 Bitte vervollständigen Sie die `calculate(int a, int b, int c)` in [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/src/main/java/com/bytelegend/Challenge.java) .
 
@@ -395,7 +395,7 @@ Wenn Sie Hilfe benötigen, können Sie sich gerne der [Discord Community](https:
 <summary>한국어</summary>
 
 이차 방정식의 근 찾기
-============
+------------
 
 [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/src/main/java/com/bytelegend/Challenge.java) 에서 `calculate(int a, int b, int c)` 메소드를 완료하십시오.
 
@@ -430,7 +430,7 @@ Wenn Sie Hilfe benötigen, können Sie sich gerne der [Discord Community](https:
 <summary>Italiano</summary>
 
 Trova le radici di un'equazione quadratica
-==========================================
+------------------------------------------
 
 Si prega di completare il metodo `calculate(int a, int b, int c)` in [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-calculate-root-of-quadratic-equation/blob/main/src/main/java/com/bytelegend/Challenge.java) .
 
