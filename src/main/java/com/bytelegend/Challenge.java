@@ -28,7 +28,7 @@ public class Challenge {
         } else if (b * b - 4 * a * c == 0) {
             return new double[]{root1};
         } else {
-            return null;
+            return new double[]{};
         }
     }
 }
