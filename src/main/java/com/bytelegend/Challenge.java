@@ -2,7 +2,7 @@ package com.bytelegend;
 
 import java.util.Arrays;
 
-public class Challenge {
+public class Chalenge {
     public static void main(String[] args) {
         System.out.println("Roots of x^2-2x+1=0 are:" + Arrays.toString(calculate(1, -2, 1)));
         System.out.println("Roots of x^2-4=0 are:" + Arrays.toString(calculate(1, 0, -4)));
@@ -20,6 +20,16 @@ public class Challenge {
      * <p>If there is no root, return an empty array.
      */
     public static double[] calculate(int a, int b, int c) {
-        return null;
+        int i = b * b - 4 * a * c;
+        if (i < 0) {
+            return new double[]{};
+        }
+        double v = Math.sqrt(i) / (2 * a);
+        double v1 = -b + v;
+        if (v == 0) {
+            return new double[]{v1};
+        }
+        double v2 = -b - v;
+        return new double[]{v1, v2};
     }
 }
