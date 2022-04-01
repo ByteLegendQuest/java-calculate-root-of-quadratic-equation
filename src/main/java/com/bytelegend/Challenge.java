@@ -2,7 +2,7 @@ package com.bytelegend;
 
 import java.util.Arrays;
 
-public class Chalenge {
+public class Challenge {
     public static void main(String[] args) {
         System.out.println("Roots of x^2-2x+1=0 are:" + Arrays.toString(calculate(1, -2, 1)));
         System.out.println("Roots of x^2-4=0 are:" + Arrays.toString(calculate(1, 0, -4)));
@@ -21,15 +21,12 @@ public class Chalenge {
      */
     public static double[] calculate(int a, int b, int c) {
         int i = b * b - 4 * a * c;
-        if (i < 0) {
+        if (i < 0 || a == 0) {
             return new double[]{};
         }
-        double v = Math.sqrt(i) / (2 * a);
-        double v1 = -b + v;
-        if (v == 0) {
-            return new double[]{v1};
-        }
-        double v2 = -b - v;
-        return new double[]{v1, v2};
+        double v = Math.sqrt(i);
+        double v1 = (-b + v) / (2 * a);
+        double v2 = (-b - v) / (2 * a);
+        return Arrays.stream(new double[]{v1, v2}).distinct().toArray();
     }
 }
