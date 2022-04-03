@@ -29,5 +29,4 @@ public class Challenge {
         }
         return new double[] {root1,root2};
     }
-    }
 }
