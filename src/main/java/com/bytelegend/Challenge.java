@@ -22,17 +22,16 @@ public class Challenge {
     public static double[] calculate(int a, int b, int c) {
         double delt = Math.pow(b, 2) - 4 * a * c;
         if (delt > 0) {
-            double root1 = (- b + Math.sqrt(delt)) / (2 * a);
-            double root2 = (- b - Math.sqrt(delt)) / (2 * a);
+            double root1 = (-b + Math.sqrt(delt)) / (2 * a);
+            double root2 = (-b - Math.sqrt(delt)) / (2 * a);
             double[] root = new double[]{ root1, root2 };
             return root; 
         } else if (delt == 0) {
-            double root0 = (- b) / (2 * a);
+            double root0 = (-b) / (2 * a);
             double[] root = new double[]{ root0 };
             return root;
         } else {
-            double[] root = null;
-            return root;
+            return  null;
         }
     }
 }
