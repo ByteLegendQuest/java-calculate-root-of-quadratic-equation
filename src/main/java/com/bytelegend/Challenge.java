@@ -20,6 +20,10 @@ public class Challenge {
      * <p>If there is no root, return an empty array.
      */
     public static double[] calculate(int a, int b, int c) {
-        return null;
+        double t = Math.sqrt(Math.pow(b, 2) - 4 * a * c);
+        return Arrays.stream(new double[]{(-b + t) / (2 * a), (-b - t) / (2 * a)})
+                .filter(value -> !Double.isNaN(value))
+                .distinct()
+                .toArray();
     }
 }
