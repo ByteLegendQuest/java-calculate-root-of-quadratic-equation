@@ -1,5 +1,6 @@
 package com.bytelegend;
 
+import java.math.BigDecimal;
 import java.util.Arrays;
 
 public class Challenge {
