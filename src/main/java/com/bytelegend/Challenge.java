@@ -1,5 +1,6 @@
 package com.bytelegend;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Challenge {
@@ -18,8 +19,21 @@ public class Challenge {
      * <p>If there is one root, return an array containing the root, i.e. `new double[] { root }`.
      *
      * <p>If there is no root, return an empty array.
+     * [-b±√(b²-4ac)]/2a
      */
     public static double[] calculate(int a, int b, int c) {
-        return null;
+        double deta=Math.pow(b,2)-4*a*c;
+        if(deta>0){
+            double[] x={(-1*b+Math.sqrt(Math.pow(b,2)-4*a*c))/2.0,(-1*b-Math.sqrt(Math.pow(b,2)-4*a*c))/2.0};
+            return x;
+        }
+        if(deta==0){
+            double[] y={-1*b/2.0};
+            return y;
+        }
+        else{
+            double[] z={};
+            return z;
+        }
     }
 }
