@@ -20,15 +20,6 @@ public class Challenge {
      * <p>If there is no root, return an empty array.
      */
     public static double[] calculate(int a, int b, int c) {
-        double topLeft = Math.sqrt(Math.pow(b, 2) - 4 * a * c);
-        double min = (-b - topLeft) / (2 * a);
-        double max = (-b + topLeft) / (2 * a);
-        if (min == max) {
-            return new double[]{min};
-        } else if (Double.isNaN(min)) {
-            return new double[0];
-        } else {
-            return new double[] {min, max};
-        }
+        return null;
     }
 }
