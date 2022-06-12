@@ -19,18 +19,7 @@ public class Challenge {
      *
      * <p>If there is no root, return an empty array.
      */
-public static double[] calculate(int a, int b, int c) {
-        double d = Math.sqrt(Math.pow(b, 2) - 4 * a * c);
-        double[] f = new double[2];
-        if (d > 0) {
-            f[0] = (-b - d) / 2 * a;
-            f[1] = (-b + d) / 2 * a;
-            return new double[]{f[0], f[1]};
-        } else if (d == 0) {
-            f[0] = -b / 2 * a;
-            return new double[]{f[0]};
-        } else {
-            return new double[]{};
-        }
+    public static double[] calculate(int a, int b, int c) {
+        return null;
     }
 }
