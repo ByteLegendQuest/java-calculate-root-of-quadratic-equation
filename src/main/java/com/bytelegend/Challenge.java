@@ -27,7 +27,7 @@ public class Challenge {
             result[1] = (-b - Math.sqrt(Math.pow(b, 2) - 4 * a * c)) / (2 * a);
             return result;
         }
-        if (Math.pow(b, 2) - 4 * a * c = 0) {
+        if (Math.pow(b, 2) - 4 * a * c == 0) {
             result[0] = -b / (2 * a);
             return result;
         }
