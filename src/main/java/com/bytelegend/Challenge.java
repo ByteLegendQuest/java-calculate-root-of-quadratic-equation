@@ -21,7 +21,7 @@ public class Challenge {
      * <p>If there is no root, return an empty array.
      */
     public static double[] calculate(int a, int b, int c) {
-        double[] result;
+        double[] result = new double[2];
         if (Math.pow(b, 2) - 4 * a * c > 0) {
             result[0] = (-b + Math.sqrt(Math.pow(b, 2) - 4 * a * c)) / (2 * a);
             result[1] = (-b - Math.sqrt(Math.pow(b, 2) - 4 * a * c)) / (2 * a);
