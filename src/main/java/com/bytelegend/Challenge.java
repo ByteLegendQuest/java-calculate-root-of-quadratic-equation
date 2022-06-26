@@ -1,7 +1,7 @@
 package com.bytelegend;
 
 import java.util.Arrays;
-import java.lang.Math;
+import java.lang.Math.*;
 
 public class Challenge {
     public static void main(String[] args) {
