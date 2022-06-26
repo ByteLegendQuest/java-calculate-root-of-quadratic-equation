@@ -1,8 +1,7 @@
 package com.bytelegend;
 
-java.lang.Math
-
 import java.util.Arrays;
+import java.lang.Math;
 
 public class Challenge {
     public static void main(String[] args) {
@@ -24,8 +23,8 @@ public class Challenge {
     public static double[] calculate(int a, int b, int c) {
         double[] result;
         if (Math.pow(b, 2) - 4 * a * c > 0) {
-            result[0] = (-b - Math.sqrt(Math.pow(b, 2) - 4 * a * c)) / (2 * a);
-            result[1] = (-b + Math.sqrt(Math.pow(b, 2) - 4 * a * c)) / (2 * a);
+            result[0] = (-b + Math.sqrt(Math.pow(b, 2) - 4 * a * c)) / (2 * a);
+            result[1] = (-b - Math.sqrt(Math.pow(b, 2) - 4 * a * c)) / (2 * a);
             return result;
         }
         if (Math.pow(b, 2) - 4 * a * c = 0) {
