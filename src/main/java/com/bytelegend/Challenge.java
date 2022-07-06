@@ -28,10 +28,9 @@ public class Challenge {
             return new double[] {- b / (2 * (double) a)};
         }
         delta = Math.sqrt(delta);
-            return new double[] {
-                (- b + delta)/ (2 * (double) a),
-                (- b - delta)/ (2 * (double) a),
-            };
-        return null;
+        return new double[] {
+            (- b + delta)/ (2 * (double) a),
+            (- b - delta)/ (2 * (double) a),
+        };
     }
 }
