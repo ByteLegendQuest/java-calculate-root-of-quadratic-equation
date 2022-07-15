@@ -25,19 +25,15 @@ public class Challenge {
         // x(Ax+B) = c
 
         double delta = ( Math.pow(b,2) - 4*a*c);
+        double x1 = (-b + Math.pow(delta,0.5d)) / (2*a);
+        double x2 = (-b - Math.pow(delta,0.5d)) / (2*a);
 
-        double[] roots = new double[2];
-
-        double x1 = 0.0d;
-        double x2 = 0.0d;
-
-        x1 = (-b + Math.pow(delta,0.5d)) / (2*a);
-        x2 = (-b - Math.pow(delta,0.5d)) / (2*a);
-
-        if(x2 != 0.0) {
-            roots[1] = x2;
+        if(delta == 0) {
+            return new double[] {x1};
+        } else if(delta>0) {
+            return new double[] {x1,x2};
+        } else {
+            return new double[] {};
         }
-
-        return roots;
     }
 }
