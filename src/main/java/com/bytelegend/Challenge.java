@@ -29,7 +29,7 @@ public class Challenge {
         double x2 = (- b - Math.pow(delta,0.5d) / (2*(double) a));
 
         if(delta < 0) {
-            return new double[0];
+            return new double[] {};
         } else if(delta==0) {
             return new double[] {x1};
         } else {
