@@ -1,7 +1,6 @@
 package com.bytelegend;
 
 import java.util.Arrays;
-import java.lang.Math;
 
 public class Challenge {
     public static void main(String[] args) {
@@ -21,19 +20,6 @@ public class Challenge {
      * <p>If there is no root, return an empty array.
      */
     public static double[] calculate(int a, int b, int c) {
-        // Ax²+Bx+c = 0
-        // x(Ax+B) = c
-
-        double delta = ( Math.pow(b,2) - 4*a*c);
-        double x1 = (-b + Math.pow(delta,0.5d)) / (2*a);
-        double x2 = (-b - Math.pow(delta,0.5d)) / (2*a);
-
-        if(delta == 0) {
-            return new double[] {x1};
-        } else if(delta>0) {
-            return new double[] {x1,x2};
-        } else {
-            return new double[] {};
-        }
+        return null;
     }
 }
