@@ -24,7 +24,7 @@ public class Challenge {
         // Ax²+Bx+c = 0
         // x(Ax+B) = c
 
-        double delta = ( (b * b) - 4*a*c);
+        double delta = ( Math.pow(b,2) - 4*a*c);
         double x1 = (- b + Math.pow(delta,0.5d) / (2*(double) a));
         double x2 = (- b - Math.pow(delta,0.5d) / (2*(double) a));
 
