@@ -20,6 +20,15 @@ public class Challenge {
      * <p>If there is no root, return an empty array.
      */
     public static double[] calculate(int a, int b, int c) {
-        return null;
+        int delta = b * b - 4 * a * c;
+        double[] answer = new double[2];
+        if (delta > 0) {
+            answer[0] = (double) (-b + Math.sqrt(delta)) / (2 * a);
+            answer[1] = (double) (-b - Math.sqrt(delta)) / (2 * a);
+        }
+        else if (delta == 0) {
+            answer[0] = (-b) / (2 * a);
+        }
+        return answer;
     }
 }
