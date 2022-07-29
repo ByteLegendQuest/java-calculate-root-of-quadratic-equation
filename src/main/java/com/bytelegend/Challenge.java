@@ -20,6 +20,12 @@ public class Challenge {
      * <p>If there is no root, return an empty array.
      */
     public static double[] calculate(int a, int b, int c) {
-        return null;
+        int t = b * b - 4 * a * c;
+        if (t < 0) {
+            return new double[]{};
+        } else if (t == 0) {
+            return new double[] {(double) -1 * b / (a * 2)};
+        }
+        return new double[]{(double) (-1 * b - Math.sqrt(t))  / (a * 2), (double) (-1 * b + Math.sqrt(t))  / (a * 2)};
     }
 }
