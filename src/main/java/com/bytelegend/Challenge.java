@@ -18,10 +18,8 @@ public class Challenge {
      * <p>If there is one root, return an array containing the root, i.e. `new double[] { root }`.
      *
      * <p>If there is no root, return an empty array.
-        x = (-b ± √ (b2 - 4ac) )/2a
      */
     public static double[] calculate(int a, int b, int c) {
-
         double[] result = new double[2];
 
         if (a < 0 ) {
@@ -43,6 +41,6 @@ public class Challenge {
                 }
 
             }
-        }>
+        }
     }
 }
