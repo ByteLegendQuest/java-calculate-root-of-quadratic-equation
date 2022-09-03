@@ -23,11 +23,11 @@ public class Challenge {
         if ((Math.pow(b,2) - 4*a*c) < 0) {
             return new double[] {};
         }
-        if ((Math.pow(b,2) - 4*a*c) == 0) {
-            double root = (-b)/(2*a);
+        else if ((Math.pow(b,2) - 4*a*c) == 0) {
+            double root = -b/(2*a);
             return new double[] { root };
         }
-        if ((Math.pow(b,2) - 4*a*c) > 0) {
+        else if ((Math.pow(b,2) - 4*a*c) > 0) {
             double root1 = (-b + Math.sqrt(Math.pow(b,2) - 4*a*c))/(2*a);
             double root2 = (-b - Math.sqrt(Math.pow(b,2) - 4*a*c))/(2*a);
             return new double[] { root1, root2 };
