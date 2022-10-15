@@ -28,5 +28,5 @@ public class Challenge {
         }
         return new double[]{};
     }
-    }
+    
 }
