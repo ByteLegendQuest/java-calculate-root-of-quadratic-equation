@@ -32,6 +32,6 @@ public class Challenge {
             double x2 = (-b - Math.sqrt(delta)) / (2 * a);
             result = new double[]{x1, x2};
         }
-        return res;
+        return result;
     }
 }
