@@ -28,12 +28,12 @@ public class Challenge {
         double x = (-b)/(2*a);
 
         if(d>0) {
-            return new Double[]{x1,x2};
+            return new double[]{x1,x2};
         }
         else if(d==0){
-            return new Double[]{x};
+            return new double[]{x};
         } else {
-            return new Double[]{};
+            return new double[]{};
         }
 
     
