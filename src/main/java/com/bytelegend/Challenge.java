@@ -32,6 +32,8 @@ public class Challenge {
         }
         else if(d==0){
             return new Double[]{x};
+        } else {
+            return new Double[]{};
         }
 
     
