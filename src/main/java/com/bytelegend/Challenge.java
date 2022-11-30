@@ -20,6 +20,22 @@ public class Challenge {
      * <p>If there is no root, return an empty array.
      */
     public static double[] calculate(int a, int b, int c) {
-        return null;
+        double v = Math.pow(b, 2) - (4 * a * c);//开平方公式
+        if (v > 0) {//v>0存在两个实根
+            double[] array = new double[2];
+            //带入方程
+            double v1 = (-b + Math.sqrt(v)) / 2 * a;
+            double v2 = (-b - Math.sqrt(v)) / 2 * a;
+            array[0] = v1;
+            array[1] = v1;
+            return array;
+        }else if (Math.abs(v) < 0.000001) {//v==0 存在一个根
+            double[] array = new double[1];
+            double v1 = (-b + Math.sqrt(v)) / 2 * a;
+            array[0] = v1;
+            return array;
+        }else {
+            return new double[]{};
+        }
     }
 }
