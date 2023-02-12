@@ -9,22 +9,17 @@ public class Challenge {
         System.out.println("Roots of x^2+1=0 are:" + Arrays.toString(calculate(1, 0, 1)));
     }
 
+    /**
+     * `calculate(int a, int b, int c)` calculates the root of the quadratic equation `ax^2+bx+c=0`.
+     *
+     * <p>If there are two roots, return an array containing the two roots, i.e. `new double[] {
+     * root1, root2 }`.
+     *
+     * <p>If there is one root, return an array containing the root, i.e. `new double[] { root }`.
+     *
+     * <p>If there is no root, return an empty array.
+     */
     public static double[] calculate(int a, int b, int c) {
-        double triangle= b * b - 4 * a * c;
-        if (triangle >= 0) {
-            double tReturn = Math.sqrt(triangle);
-            if (triangle > 0) {
-                double[] root = new double[2];
-                root[0] = (- b + tReturn) / 2 * a;
-                root[1] = (- b - tReturn) / 2 * a;
-                return new double[] {root[0], root[1]};
-            }
-            else {
-                double[] root = new double[1];
-                root[0] = (- b + tReturn) / 2 * a;
-                return new double[] {root[0]};
-            }
-        }
-        return new double[] {};
+        return null;
     }
 }
