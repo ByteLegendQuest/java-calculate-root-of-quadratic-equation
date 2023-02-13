@@ -32,6 +32,6 @@ public class Challenge {
             return s;
         }
         else
-            return null;
+            return double[]{};
     }
 }
