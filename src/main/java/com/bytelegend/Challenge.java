@@ -22,8 +22,8 @@ public class Challenge {
     public static double[] calculate(int a, int b, int c) {
         if(b*b-4*a*c>0){
             double[] s = new double[2];
-            s[0] = (-b+Math.sqrt(b*b-4*a*c>0))/2/a;
-            s[1] = (-b-Math.sqrt(b*b-4*a*c>0))/2/a;
+            s[0] = (-b+Math.sqrt(b*b-4*a*c))/2/a;
+            s[1] = (-b-Math.sqrt(b*b-4*a*c))/2/a;
             return s;
         }
         else if(b*b-4*a*c==0){
