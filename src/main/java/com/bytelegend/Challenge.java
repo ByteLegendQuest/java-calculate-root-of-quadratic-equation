@@ -32,7 +32,7 @@ public class Challenge {
             return s;
         }
         else{
-            double[] s = new double[0];
+            double[] s = new double[]{};
             return s;
         }
     }
