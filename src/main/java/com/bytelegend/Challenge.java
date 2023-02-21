@@ -23,6 +23,6 @@ public class Challenge {
         double x = b * b - 4 * a * c;
         if (x < 0) return new double[] {};
         if (x == 0) return new double[] {Math.sqrt(x) - b / 2 * a};
-        return new double[] {Math.sqrt(x) - b / 2 * a, -Math.sqrt(x) - b / 2 * a} 
+        return new double[] {Math.sqrt(x) - b / 2 * a, -Math.sqrt(x) - b / 2 * a};
     }
 }
