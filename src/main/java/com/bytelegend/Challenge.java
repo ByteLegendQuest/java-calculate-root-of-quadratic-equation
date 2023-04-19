@@ -24,7 +24,8 @@ public class Challenge {
         if (x < 0)  {
             return new double[] {};
         } else if (x == 0) {
-            return new double[] {-b};
+            return new double[] {
+                    ((-b) + Math.sqrt(x)) / (2 * a)};
         } else {
             return new double[] {
                     ((-b) + Math.sqrt(x)) / (2 * a),
