@@ -24,7 +24,7 @@ public class Challenge {
         if (det < 0) {
             return new double[0];
         } else if (det == 0) {
-            return -b / 2.0 / a;
+            return new double[] {-b / 2.0 / a};
         } else {
             double sqrt = Math.sqrt(det);
             return new double[] {(-b + sqrt) / 2.0 / a, (-b - sqrt) / 2.0 / a};
