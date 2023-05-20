@@ -20,14 +20,6 @@ public class Challenge {
      * <p>If there is no root, return an empty array.
      */
     public static double[] calculate(int a, int b, int c) {
-        int det = b * b - 4 * a * c;
-        if (det < 0) {
-            return new double[0];
-        } else if (det == 0) {
-            return new double[] {-b / 2.0 / a};
-        } else {
-            double sqrt = Math.sqrt(det);
-            return new double[] {(-b + sqrt) / 2.0 / a, (-b - sqrt) / 2.0 / a};
-        }
+        return null;
     }
 }
