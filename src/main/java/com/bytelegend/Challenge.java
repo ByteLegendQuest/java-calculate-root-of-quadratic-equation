@@ -1,7 +1,6 @@
 package com.bytelegend;
 
 import java.util.Arrays;
-import java.util.Optional;
 
 public class Challenge {
     public static void main(String[] args) {
@@ -21,14 +20,6 @@ public class Challenge {
      * <p>If there is no root, return an empty array.
      */
     public static double[] calculate(int a, int b, int c) {
-        double sqrt = Math.sqrt(b * b - 4 * a * c);
-        double r1 = (-b + sqrt) / 2 * a;
-        double r2 = (-b - sqrt) / 2 * a;
-        if (!Double.isNaN(r1) && !Double.isNaN(r2) && r1 != r2) {
-            return new double[]{r1, r2};
-        } else if (!Double.isNaN(r1) || !Double.isNaN(r2)) {
-            return new double[]{Optional.of(r1).orElse(r2)};
-        }
-        return new double[]{};
+        return null;
     }
 }
