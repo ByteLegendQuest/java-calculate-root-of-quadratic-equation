@@ -31,8 +31,9 @@ public class Challenge {
             root[0] = firstRoot;
             root[1] = secondRoot;
         } else if (determinant == 0) {
-            root = new double[1];
-            root[0] = (-b + sqrt) / (2 * a);
+            root = new double{ (-b + sqrt) / (2 * a)};
+        } else {
+            return new double[] {};
         }
         return root;
     }
