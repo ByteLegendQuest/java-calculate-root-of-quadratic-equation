@@ -20,6 +20,20 @@ public class Challenge {
      * <p>If there is no root, return an empty array.
      */
     public static double[] calculate(int a, int b, int c) {
-        return null;
+        //x = ( (-b +/= sqrt(b^2 - 4ac))  )/ 2a
+        double determinant = (Math.pow(b,2)) - (4 * a * c);
+        double sqrt = Math.sqrt(determinant);
+        double[] root;
+        if (determinant > 0) {
+            double firstRoot = (-b + sqrt) / (2 * a);
+            double secondRoot = (-b - sqrt) / (2 * a);
+            root = new double[2];
+            root[0] = firstRoot;
+            root[1] = secondRoot;
+        } else if (determinant == 0) {
+            root = new double[1];
+            root[0] = (-b + sqrt) / (2 * a);
+        }
+        return root;
     }
 }
