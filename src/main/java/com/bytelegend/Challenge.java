@@ -23,18 +23,19 @@ public class Challenge {
         //x = ( (-b +/= sqrt(b^2 - 4ac))  )/ 2a
         double determinant = (Math.pow(b,2)) - (4 * a * c);
         double sqrt = Math.sqrt(determinant);
-        double[] root;
+        double[] root = new double [2];
+        double firstRoot = (-b + sqrt) / (2 * a);
+        double secondRoot = (-b - sqrt) / (2 * a);
         if (determinant > 0) {
-            double firstRoot = (-b + sqrt) / (2 * a);
-            double secondRoot = (-b - sqrt) / (2 * a);
-            root = new double[2];
             root[0] = firstRoot;
             root[1] = secondRoot;
         } else if (determinant == 0) {
-            root = new double{ (-b + sqrt) / (2 * a)};
+            root = new double[1];
+            root[0] = firstRoot;
         } else {
-            return new double[] {};
+            root = new double[0];
         }
+
         return root;
     }
 }
