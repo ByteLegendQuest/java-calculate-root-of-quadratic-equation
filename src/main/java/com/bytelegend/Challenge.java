@@ -21,8 +21,8 @@ public class Challenge {
      */
     public static double[] calculate(int a, int b, int c) {
         double delta = Math.sqrt(b * b - 4 * a * c);
-        if (double.isNaN(delta)) {    
-            return new double[];
+        if (Double.isNaN(delta)) {    
+            return new double[0];
         }
         if (delta < 0.000000001) {
             return new double[] { (double) -b / 2 * a };
